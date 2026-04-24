@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Mikayla ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- PAGE 1 -->
+    <section class="page active" id="page1">
+        <div class="card">
+            <h1>Hi Mikayla...</h1>
+            <p>I made something for you :)</p>
+            <button onclick="nextPage(2)">Click to Continue</button>
+        </div>
+    </section>
+
+    <!-- PAGE 2 QUIZ -->
+    <section class="page" id="page2">
+        <div class="card quiz-card">
+            <h2 id="questionText"></h2>
+            <div id="answers"></div>
+        </div>
+    </section>
+
+    <!-- PAGE 3 PHOTO -->
+    <section class="page" id="page3">
+        <div class="card">
+            <h2>Some of my favorite memories ❤️</h2>
+            <div class="photo-container">
+                <img id="photoReveal" src="" alt="">
+            </div>
+            <button id="nextPhotoBtn">Reveal Next Photo</button>
+        </div>
+    </section>
+
+    <!-- PAGE 4 CAP GAME -->
+    <section class="page" id="page4">
+        <div class="card">
+            <h2>Spam click the graduation cap 🎓</h2>
+            <p>Help launch it!</p>
+
+            <div id="cap">🎓</div>
+            <div class="meter">
+                <div id="powerBar"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 5 -->
+    <section class="page" id="page5">
+        <div class="card">
+            <h2>Why I’m Proud of You ❤️</h2>
+            <div id="reasonBox"></div>
+            <button id="nextReasonBtn">Next</button>
+        </div>
+    </section>
+
+    <!-- PAGE 6 -->
+    <section class="page" id="page6">
+        <div class="card final-card">
+            <h1>Happy Graduation Mikayla ❤️</h1>
+            <h2>With love from your Gerald</h2>
+            <p>Here's to more life milestones together.</p>
+        </div>
+    </section>
+
+<script src="script.js"></script>
+</body>
+</html>
